@@ -51,11 +51,11 @@
   const logoUrl = computed(() => {
     switch(props.platform.toLowerCase()) {
       case 'osu!': 
-        return 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Osu%21_Logo_2016.svg/1200px-Osu%21_Logo_2016.svg.png';
+        return new URL('../assets/osu.png', import.meta.url).href;
       case 'github': 
         return 'https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png';
       case 'x': 
-        return 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/X_icon_2.svg/2048px-X_icon_2.svg.png';
+        return new URL('../assets/x.png', import.meta.url).href;
       case 'bilibili': 
         return 'https://www.svgrepo.com/show/345504/bilibili.svg';
       case 'rednote':
