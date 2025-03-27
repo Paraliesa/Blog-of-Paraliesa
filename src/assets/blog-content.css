@@ -19,17 +19,24 @@
   
   .image-block {
     margin: 2rem 0;
-    text-align: center;
+    max-width: 100%;
   }
   
   .image-block img {
     max-width: 100%;
+    height: auto;
     border-radius: 8px;
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+  }
+  
+  .image-block img[style*="width"] {
+    max-width: none !important; /* 当有width内联样式时覆盖max-width */
   }
   
   .image-block figcaption {
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
+    text-align: center;
     font-size: 0.9rem;
     color: #666;
     font-style: italic;

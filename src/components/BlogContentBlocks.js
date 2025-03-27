@@ -4,7 +4,10 @@ import { h } from 'vue';
 export const TextBlock = {
   props: ['content'],
   render() {
-    return h('p', { class: 'text-block' }, this.content);
+    return h('div', { 
+      class: 'text-block',
+      innerHTML: this.content 
+    });
   }
 };
 
@@ -26,10 +29,29 @@ export const SubheadingBlock = {
 
 // 图片块组件
 export const ImageBlock = {
-  props: ['src', 'alt'],
+  props: ['src', 'alt', 'srcset', 'sizes', 'width', 'height', 'align'],
   render() {
-    return h('figure', { class: 'image-block' }, [
-      h('img', { src: this.src, alt: this.alt }),
+    // 创建图片样式对象
+    const imgStyle = {};
+    if (this.width) imgStyle.width = this.width;
+    if (this.height) imgStyle.height = this.height;
+    if (this.width || this.height) imgStyle.maxWidth = 'none';
+    
+    // 创建容器样式对象
+    const figureStyle = {};
+    if (this.align) figureStyle.textAlign = this.align;
+    
+    return h('figure', { 
+      class: 'image-block',
+      style: figureStyle
+    }, [
+      h('img', { 
+        src: this.src, 
+        alt: this.alt,
+        srcset: this.srcset,
+        sizes: this.sizes,
+        style: imgStyle
+      }),
       this.alt ? h('figcaption', {}, this.alt) : null
     ]);
   }
@@ -54,7 +76,7 @@ export const CodeBlock = {
 export const QuoteBlock = {
   props: ['content'],
   render() {
-    return h('blockquote', { class: 'quote-block' }, this.content);
+    return h('blockquote', { class: 'quote-block',innerHTML: this.content });
   }
 };
 

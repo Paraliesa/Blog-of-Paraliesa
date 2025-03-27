@@ -23,6 +23,8 @@
             :language="block.language"
             :alt="block.alt"
             :src="block.src"
+            :width="block.width"
+            :align="block.align"
           />
         </div>
         
