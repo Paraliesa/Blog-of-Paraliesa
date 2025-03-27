@@ -93,7 +93,7 @@ export const blogPosts = [
       id: 2,
       title: '(Vue3)Pinia的理解和初步使用，以及对状态管理的初步认识',
       category: 'tech',
-      date: '2025.03.25',
+      date: '2025.03.27',
       excerpt: '我是怎么初步接触和使用Pinia的.',
       tags: ['Vue3', 'Pinia', '状态管理'],
       resorces: ['https://zhuanlan.zhihu.com/p/508371727','https://pinia.vuejs.org/introduction.html'],
