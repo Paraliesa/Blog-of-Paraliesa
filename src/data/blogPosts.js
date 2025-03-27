@@ -96,6 +96,7 @@ export const blogPosts = [
       date: '2025.03.25',
       excerpt: '我是怎么初步接触和使用Pinia的.',
       tags: ['Vue3', 'Pinia', '状态管理'],
+      resorces: ['https://zhuanlan.zhihu.com/p/508371727','https://pinia.vuejs.org/introduction.html'],
       content: [
         {
           type: 'heading',
@@ -107,7 +108,7 @@ export const blogPosts = [
         },
         {
           type: 'text',
-          content: '为什么会出现这种情况呢，因为我最开始不是通过网课/书籍来学习vue和大部分前端知识的。<br>大概是去年暑假的时候，当时的我刚刚经历了对大学、新一线城市、南北地区生活与自身能力的重新思考/数学建模事业的滑铁卢/对家长一系列期盼的拒绝与抗争等等一系列重要事件，身边也没有能理解和倾诉这些东西的朋友，可谓是迷茫不前、万念俱灰、死气沉沉、只会打打osu……<br>扯远了，反正我的老师当时看我对前端挺感兴趣，就给了我一个师兄的毕设，让我学学。这位师兄的毕设是用vue3+django做的，而当时的我是什么情况呢，大概是：'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为什么会出现这种情况呢，因为我最开始不是通过网课/书籍来学习vue和大部分前端知识的。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;大概是去年暑假的时候，当时的我刚刚经历了对大学、新一线城市、南北地区生活与自身能力的重新思考/数学建模事业的滑铁卢/对家长一系列期盼的拒绝与抗争等等一系列重要事件，身边也没有能理解和倾诉这些东西的朋友，可谓是迷茫不前、万念俱灰、死气沉沉、只会打打osu……<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;扯远了，反正我的老师当时看我对前端挺感兴趣，就给了我一个师兄的毕设，让我学学。这位师兄的毕设是用vue3+django做的，而当时的我是什么情况呢，大概是：'
         },
         {
           type: 'quote',
@@ -115,19 +116,19 @@ export const blogPosts = [
         },
         {
           type: 'text',
-          content: '总之，我借助ai花了痛苦的一个半月生啃下来了那个项目，那个项目的前端部分比较简单，虽然引入了vuex，但是完全没用上，我自然也就完全不知道什么是状态管理，只是学会了项目如何架构、组件和页面是什么关系，组件怎么写、怎么用router做路由跳转，怎么用axios发请求，django后端怎么写罢了。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总之，我借助ai花了痛苦的一个半月生啃下来了那个项目，那个项目的前端部分比较简单，虽然引入了vuex，但是完全没用上，我自然也就完全不知道什么是状态管理，只是学会了项目如何架构、组件和页面是什么关系，组件怎么写、怎么用router做路由跳转，怎么用axios发请求，django后端怎么写罢了。'
         },
         {
           type: 'text',
-          content: '然后时间来到了大三第一个学期的最后几周，为了完成课设，我需要做一个名叫cdz的电影院选票管理系统，本地能跑就行，所以重点在前后端、数据库。<br>我掏出vue3夸夸写了十几个组件，然后就出现了一个问题：我经常在组件内部声明和定义一些只在这个组件内使用的变量，即用即销，它们的生命周期和组件相同；然而，总有某些数据是需要在各个组件中共享的，它们需要“超脱某个组件”，不因某个组件的销毁而消失。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;然后时间来到了大三第一个学期的最后几周，为了完成课设，我需要做一个名叫cdz的电影院选票管理系统，本地能跑就行，所以重点在前后端、数据库。<br>我掏出vue3夸夸写了十几个组件，然后就出现了一个问题：我经常在组件内部声明和定义一些只在这个组件内使用的变量，即用即销，它们的生命周期和组件相同；然而，总有某些数据是需要在各个组件中共享的，它们需要“超脱某个组件”，不因某个组件的销毁而消失。'
         },
         {
           type: 'text',
-          content: '当时的我解决这个问题的方法十分简单粗暴：就你需要在组件间流通是吧，好，我全给你存进localstorage，从现在开始你超脱组件和会话了，自己玩去吧你。（然后每个组件都要多写好几行相关逻辑）'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;当时的我解决这个问题的方法十分简单粗暴：就你需要在组件间流通是吧，好，我全给你存进localstorage，从现在开始你超脱组件和会话了，自己玩去吧你。（然后每个组件都要多写好几行相关逻辑）'
         },
         {
           type: 'text',
-          content: '很有原教旨主义风味的解决方案，就好比是住着单元楼的人大冬天的把地暖空调全拆了，非要学山顶洞人搁屋里烧柴火一样，真是别样的。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;很有原教旨主义风味的解决方案，就好比是住着单元楼的人大冬天的把地暖空调全拆了，非要学山顶洞人搁屋里烧柴火一样，真是别样的。'
         },
         {
           type: 'image',
@@ -138,7 +139,7 @@ export const blogPosts = [
         },
         {
           type: 'text',
-          content: '鬼使神差的是，我还真的恰好让组件在每一次状态更新时都重新加载了，避开了数据不是响应式的问题（虽然我自己都没意识到这个问题）。<br>总之，这就是我第一次遇到状态管理问题的经过，其实我也注意到了这个问题，所以后来重构项目时我特意去学习了Pinia，尝试学习更加现代化的解决方案。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;鬼使神差的是，我还真的恰好让组件在每一次状态更新时都重新加载了，避开了数据不是响应式的问题（虽然我自己都没意识到这个问题）。<br>总之，这就是我第一次遇到状态管理问题的经过，其实我也注意到了这个问题，所以后来重构项目时我特意去学习了Pinia，尝试学习更加现代化的解决方案。'
         },
         {
           type: 'subheading',
@@ -146,15 +147,15 @@ export const blogPosts = [
         },
         {
           type: 'quote',
-          content: '状态是数据的变化，比如颜色是红色或蓝色是数据，而颜色从红色变为蓝色这就是状态了。状态的改变对应着视图的渲染或者某段逻辑的执行。比如颜色从红色变为蓝色可能就要重新渲染视图，并且执行发送请求到服务端的逻辑。通过视图交互或者其他方式触发状态的变化，状态变化联动视图的渲染和逻辑的执行，这就是前端应用的核心 …… 状态变化之前的异步过程的管理，是状态管理的第一层含义 …… 状态变化之后的联动处理的管理，是状态管理的第二层含义。<br><p style="text-align: right;">——知乎用户：神说要有光</p>'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;状态是数据的变化，比如颜色是红色或蓝色是数据，而颜色从红色变为蓝色这就是状态了。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;状态的改变对应着视图的渲染或者某段逻辑的执行。比如颜色从红色变为蓝色可能就要重新渲染视图，并且执行发送请求到服务端的逻辑。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过视图交互或者其他方式触发状态的变化，状态变化联动视图的渲染和逻辑的执行，这就是前端应用的核心 …… <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;状态变化之前的异步过程的管理，是状态管理的第一层含义 …… <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;状态变化之后的联动处理的管理，是状态管理的第二层含义。<br><p style="text-align: right;">——知乎用户：神说要有光</p>'
         },
         {
           type: 'quote',
-          content: '在前端开发中，状态管理（State Management） 指的是 如何存储、管理和共享应用的数据（状态），让组件之间能够高效地通信和更新 UI。<br><p style="text-align: right;">——ChatGPT</p>'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在前端开发中，状态管理（State Management） 指的是 如何存储、管理和共享应用的数据（状态），让组件之间能够高效地通信和更新 UI。<br><p style="text-align: right;">——ChatGPT</p>'
         },
         {
           type: 'text',
-          content: '以上，我的理解更接近ai的说法。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以上，我的理解更接近ai的说法。'
         },
         {
           type: 'subheading',
@@ -166,11 +167,11 @@ export const blogPosts = [
         },
         {
           type: 'text',
-          content: '简单来说(对我来说)，Pinia是一个用来实现状态管理的库，它能存跨组件的数据和功能，这已经够了。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简单来说(对我来说)，Pinia是一个用来实现状态管理的库，它能存跨组件的数据和功能，这已经够了。'
         },
         {
           type: 'text',
-          content: '下面讲讲我在第一次重构cdz的时候是怎么使用Pinia的。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下面讲讲我在第一次重构cdz的时候是怎么使用Pinia的。'
         },
         {
           type: 'heading',
@@ -178,7 +179,7 @@ export const blogPosts = [
         },
         {
           type: 'text',
-          content: '顶部栏指的是这个东西：'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;顶部栏指的是这个东西：'
         },
         {
           type: 'image',
@@ -192,11 +193,11 @@ export const blogPosts = [
         },
         {
           type: 'text',
-          content: '顶部栏存在于所有页面，唯独在登录/注册页面不渲染，使用Pinia实现这里的状态管理。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;顶部栏存在于所有页面，唯独在登录/注册页面不渲染，使用Pinia实现这里的状态管理。'
         },
         {
           type: 'text',
-          content: '先为项目引入Pinia。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;先为项目引入Pinia。'
         },
         {
           type: 'code',
@@ -210,7 +211,7 @@ export const blogPosts = [
         },
         {
           type: 'text',
-          content: '创建 store 来管理状态。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;创建 store 来管理状态。'
         },
         {
           type: 'code',
@@ -219,19 +220,19 @@ export const blogPosts = [
         },
         {
           type: 'text',
-          content: "useHeaderStore是Store生成函数，用于访问 Store 实例。 'header'是Store名称，唯一标识这个Store。needHeader是State/状态，用于存储数据。setNeedHeader是Action/方法，用于修改状态，封装业务逻辑。"
+          content: "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;useHeaderStore是Store生成函数，用于访问 Store 实例。 'header'是Store名称，唯一标识这个Store。needHeader是State/状态，用于存储数据。setNeedHeader是Action/方法，用于修改状态，封装业务逻辑。"
         },
         {
           type: 'text',
-          content: '至此，我们拥有了一个可以在任何组件中访问的变量(状态/state):needHeader，以及一个用于控制needHeader的方法:setNeedHeader。needHeader是响应式的，它的属性是reactive，会因解构而失去响应式，pinia提供了storeToRefs()，可以把 Pinia store 里的 state 变成 ref，需要的时候可以用。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;至此，我们拥有了一个可以在任何组件中访问的变量(状态/state):needHeader，以及一个用于控制needHeader的方法:setNeedHeader。needHeader是响应式的，它的属性是reactive，会因解构而失去响应式，pinia提供了storeToRefs()，可以把 Pinia store 里的 state 变成 ref，需要的时候可以用。'
         },
         {
           type: 'text',
-          content: '现在，只差合理使用useHeaderStore了。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;现在，只差合理使用useHeaderStore了。'
         },
         {
           type: 'text',
-          content: '我先放一个例子在这里。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我先放一个例子在这里。'
         },
         {
           type: 'code',
@@ -245,23 +246,23 @@ export const blogPosts = [
         },
         {
           type: 'text',
-          content: '首先声明，不要学这种写法，尽管它能够满足需求。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首先声明，不要学这种写法，尽管它能够满足需求。'
         },
         {
           type: 'text',
-          content: '先分析它是怎么满足需求的：<br>1、顶部栏组件是根据组件里的needHeader的值来决定是否渲染的。<br>2、组件里的needHeader和store里的needHeader都是响应式的。<br>3、由于手动watch监听了store里的needHeader，当store里的needHeader发生变化时，我们组件里的needHeader将与store里的needHeader同步，又因为组件里的needHeader发生了变化，TopHeader组件将改变渲染状态。<br>4、不论是从一个页面跳转到另一个页面/第一次进入网站的页面/通过网址专门跳到网站的某个首页以外的页面/在浏览器里刷新页面，都会触发router.beforeEach((to, from, next)=>{…………})，而且参数to有意义(目标路由)，所以以任何方式每次进入新页面前都会首先保证store里的needHeader值正确(即便它可能刚刚才丢失并被重新初始化)。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;先分析它是怎么满足需求的：<br>1、顶部栏组件是根据组件里的needHeader的值来决定是否渲染的。<br>2、组件里的needHeader和store里的needHeader都是响应式的。<br>3、由于手动watch监听了store里的needHeader，当store里的needHeader发生变化时，我们组件里的needHeader将与store里的needHeader同步，又因为组件里的needHeader发生了变化，TopHeader组件将改变渲染状态。<br>4、不论是从一个页面跳转到另一个页面/第一次进入网站的页面/通过网址专门跳到网站的某个首页以外的页面/在浏览器里刷新页面，都会触发router.beforeEach((to, from, next)=>{…………})，而且参数to有意义(目标路由)，所以以任何方式每次进入新页面前都会首先保证store里的needHeader值正确(即便它可能刚刚才丢失并被重新初始化)。'
         },
         {
           type: 'text',
-          content: '顺便提一句，当你在Vue组件或JS代码中创建一个Pinia store并赋值时，数据其实是存储在JavaScript运行时的内存里的，不是存在cookie、localStorage、sessionStorage的(可以手动选择存进去)，一刷新就丢失然后重新初始化了。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;顺便提一句，当你在Vue组件或JS代码中创建一个Pinia store并赋值时，数据其实是存储在JavaScript运行时的内存里的，不是存在cookie、localStorage、sessionStorage的(可以手动选择存进去)，一刷新就丢失然后重新初始化了。'
         },
         {
           type: 'text',
-          content: '这个写法不好的地方是，好端端的一个needHeader硬是变成了两个（const needHeader = ref(store.needHeader)），虽然store.needHeader是响应式的，但ref(store.needHeader)只是把当前值复制了一份而已，两个needHeader在这之后就没有任何关系了（ref(store.needHeader)解构了store.needHeader，store.needHeader本身是响应式的reactive()，但解构它会失去响应式），必须想办法手动让它们时刻相等（watch）。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这个写法不好的地方是，好端端的一个needHeader硬是变成了两个（const needHeader = ref(store.needHeader)），虽然store.needHeader是响应式的，但ref(store.needHeader)只是把当前值复制了一份而已，两个needHeader在这之后就没有任何关系了（ref(store.needHeader)解构了store.needHeader，store.needHeader本身是响应式的reactive()，但解构它会失去响应式），必须想办法手动让它们时刻相等（watch）。'
         },
         {
           type: 'text',
-          content: '一种正确写法如下：'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一种正确写法如下：'
         },
         {
           type: 'code',
@@ -270,11 +271,11 @@ export const blogPosts = [
         },
         {
           type: 'text',
-          content: '这样，直接使用store.needHeader就好了。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这样，直接使用store.needHeader就好了。'
         },
         {
           type: 'text',
-          content: '用户登录状态的管理也会用到，但是那个就复杂了，涉及到token、API请求拦截器什么的，值得新开一篇博客了，之后再继续研究吧。'
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用户登录状态的管理也会用到，但是那个就复杂了，涉及到token、API请求拦截器什么的，值得新开一篇博客了，之后再继续研究吧。'
         },
         {
           type: 'image',

@@ -39,6 +39,16 @@
               {{ tag }}
             </span>
           </div>
+          <div class="post-resorces" v-if="post.resorces && post.resorces.length">
+            <span class="tag-label">引用：</span>
+            <span 
+              v-for="resorce in post.resorces" 
+              :key="resorce"
+              class="post-tag"
+            >
+              {{ resorce}}
+            </span>
+          </div>
           
           <div class="post-navigation">
             <router-link 
@@ -191,6 +201,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    margin-bottom: 2rem;
+    align-items: center;
+  }
+  .post-resorces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: -1rem;
     margin-bottom: 2rem;
     align-items: center;
   }
