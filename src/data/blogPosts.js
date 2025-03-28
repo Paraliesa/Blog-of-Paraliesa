@@ -285,7 +285,114 @@ export const blogPosts = [
           align: 'center'
         },
       ]
-    }
+    },
+    {
+      id: 3,
+      title: '21岁了，聊聊各种感想',
+      category: 'life',
+      date: '2025.03.29',
+      excerpt: '祝我生日快乐。',
+      tags: ['人生', '感想'],
+      resorces: ['https://mp.weixin.qq.com/s/ef6FuKEYCA9g5QL47aPZIQ'],
+      content: [
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人生如白驹过隙，时光亦如箭飞逝。'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;学会习惯一个人的生日，也是一个人的必修课。其实这么多年过来，我早已不会因为生日当天无人在意而悲伤了，在我对着日历算自己今年多少岁的时候，顺便回顾了一下往年生日的情景。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自12岁以来，清一色的孤独，从不受理解的愤懑、到独自一人的悲怆、再到如今的忧虑，似乎每一个时间段的自己都在单刷不同的隐藏高难副本，独自面对一个看不见摸不着的世界boss。'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;生活就像一款设计无聊的RPG游戏一样，过了一关，迎接自己的只有更难的下一关。小时候的我用 \'普通的木棍\' 大战 \'海滩龙虾\' ，长大后的我用 \'极·夜之降临九转伏羲剑改+12\' 大战 \'火焰的 暴躁的 巨熊的 快速的 末日大龙虾\' 。我不曾窥见质变的临界点。'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从某种意义上讲，当今互联网上的大数据个性化推流有时也是同样的道理，它推送新颖而同质化的东西。'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不过，它有时还是会推一些你实际需要的东西的，对吧？这在概率学上是允许发生的。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;只是这个说法比较缺少浪漫气息，不如使用古人“缘分”的说法。人的一生足够短，但也长到足够让你拥有在合适的时机遇到合适的人/事的体验了，所谓的“缘分”，何尝不是一种来自于这个世界的个性化推送呢？'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;游戏的进行是需要motivation的，玩家跋山涉水历尽艰辛，斩尽魔王的龙虾大军，最终面对魔王，鏖战得胜，世界的邪恶被消灭，所有的NPC获得了幸福，而玩家迎来了Happy Ending。那么，人生的motivation该当如何呢，我又该何去何从呢，我想不出来。现实的世界不存在超级英雄，因为不存在具象化的超级坏蛋要去打败；同样的，世上也不存在消灭了就能让所有人幸福的大魔王；我更不是天赋异禀的勇者，要去完成某个伟大的目标，追寻世界的秘密。'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;所以我一直觉得“缘分”是很神奇的，它立于理想和现实的交界处，它是无法被观察、无法被追求、亦无法被言说的，无形、无迹、无影、无踪，但它的确会毫无征兆地降临，之后再具象化，以至于在缘分发生之前，你无法定义缘分。'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最近发生在我身上的缘分，是我在完全偶然的情况下，通过一款叫做《Little Busters》的游戏知道了《若山牧水短歌集》的存在。'
+        },
+        {
+          type: 'image',
+          src: '/blogassets/3.png',
+          alt: '',
+          align: 'center',
+          width: '75%',
+        },
+        {
+          type: 'text',
+          content: '<center>白鸟亦悲否<br>不为空之青、海之蓝所染<br>弋于其间<br><br>白鸟不悲否<br>苍茫天水间，片羽皆不染<br>无言自飘摇<br><br>白鸟哀婉<br>不容于天空之湛蓝<br>亦不容于海之绀碧<br><br>白鸟我见犹怜<br>出碧海蓝天而不染<br>悠然翱翔天地间<br><br>白鸟独凄然否<br>出碧海蓝天而不染<br>兀自浮游天地间<br><br>白鸟不染碧空之色<br>纯洁无瑕<br><br>令白鸟哀叹的天空之蓝<br>无法浸染大海之青<br>相互映照<br><br>与海之接吻<br>令夕阳无以行<br>鸟翔于天，停滞不前</center><br><p style="text-align: right;">——『海の声』　若山牧水</p>'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;翻译的很有水平了，尽管我无法溯源出是谁翻译的。这里的内容并非原文，是从原文里截取了几句短歌拼接翻译而成，甚至出现了同一句不同的翻译同时出现的情况。不过读起来令人共鸣，也是很好了，我很宽容的。'
+        },
+        {
+          type: 'image',
+          src: '/blogassets/4.png',
+          alt: '若山牧水 (繁) 著『海の声』,生命社,明41.7. 国立国会図書館デジタルコレクション ',
+          align: 'center',
+          width: '80%',
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我不想在这里大谈我对这些诗文的理解，但是诗文的内容令我产生了十二分的共鸣，我特地去了解了作者的经历，然后我明白了我产生共鸣的原因。'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;以下内容参考自某日语博主的文章。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;若山 牧水（1885.8.24-1928.9.17），日本和歌作家。这首短歌写于若山牧水就读于早稻田大学时期，时年23岁的他临近毕业，对于今后的发展道路感到迷茫。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;与此同时，他还得知自己爱慕已久的女性，园田小枝子其实早已结婚，并且还有两个孩子。就在这样的背景下，若山牧水写下了这首短歌。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在短歌中，他描绘了一幅无垠广阔的蓝天和无边无际的碧海，一只白鸟在其中漂泊的画面。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;他将自己比作这只“白鳥”，“空の青海のあをにも”则代表了自己的青春或是自己的人生。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通过“ただよふ”，描写白鸟在海与天空之中漫无目的地漂泊，暗示了歌人对于青春，更是对于未来的迷茫。'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我虽然没有经历过喜欢的人已经跟别人结婚这种事情（可能也快了），但对于未来的迷茫，却是一等一的真实。'
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我是2022年高考考出河北省，来到浙江读计算机的，这其实是一件很痛苦的事情，对于六年中学生活 >= 六年有期徒刑的我来说，我需要多花很大的力气来补充常识和背景、基础知识，然后才能勉强叩响计算机领域的大门。结果就在这几年，大语言模型横空出世、势头不减，互联网行业更是捷报频传：人数增多、岗位缩减、待遇降低、行业过饱和……我对此无能为力，作为一个大三的学生，我的心中更多的是迷茫和不甘，迷茫在于，不知前路如何，不甘在于，不想看到自己这些年来的努力最终落得个能力配不上欲望的结果。'
+        },
+        {
+          type: 'image',
+          src: '/blogassets/5.png',
+          alt: '',
+          align: 'center',
+          width: '60%',
+        },
+        {
+          type: 'image',
+          src: '/blogassets/6.png',
+          alt: '',
+          align: 'center',
+          width: '60%',
+        },
+        {
+          type: 'text',
+          content: '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;很难不焦虑，很难不迷茫。我只能劝自己，车到山前必有路，船到桥头自然直了。'
+        },
+        {
+          type: 'quote',
+          content: '白鳥は 悲しからずや 空の青 海のあをにも 染まずただよふ<br>一译：<br>白鸟独凄否 碧海蓝天皆不染 兀自浮游天地间<br>另译：<br>令白鸟哀叹的天空之蓝 无法浸染大海之青 相互映照'
+        },
+        {
+          type: 'quote',
+          content: 'ああ接吻海そのままに日は行かず 鸟翔ひながら 死せ果てよいま<br>一译：<br>叹兮接吻时 海亦静谧日亦停 飞鸟如殁止不前<br>另译：<br>与海之接吻 令夕阳无以行 鸟翔于天 停滞不前'
+        },
+      ]
+    },
     // 未来可以在这里添加更多博客文章
   ];
   
